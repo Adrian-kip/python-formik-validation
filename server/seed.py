@@ -16,21 +16,23 @@ if "Duane" not in usernames:
     usernames.append("Duane")
 
 def make_customers():
-
+    # Clear existing data
     Customer.query.delete()
     
     customers = []
 
+    # Create 3 random customers
     for i in range(3):
         customer = Customer(
             email=fake.email(),
-            age= randint(0, 125),
+            age=randint(0, 125),
             name=fake.name()
         )
         customers.append(customer)
 
+    # Add to database and commit
     db.session.add_all(customers)
-    db.session.commit()        
+    db.session.commit()     
 
 if __name__ == '__main__':
     with app.app_context():

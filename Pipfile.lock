@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e986f783b1bab62e2f8bd02da0c6066f731fd6e11945aef56440d80d2227033f"
+            "sha256": "e6ed10848fbecdf63df235e1281deddeee882f4f225e81c3a3da51f55e05ace6"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -90,11 +90,12 @@
         },
         "faker": {
             "hashes": [
-                "sha256:0094fe3340ad73c490d3ffccc59cc171b161acfccccd52925c70970ba23e6d6b",
-                "sha256:43da04aae745018e8bded768e74c84423d9dc38e4c498a53439e749d90e20bc0"
+                "sha256:0a79ebe8f0ea803f7bd288d51e2d445b86035a2480e048daee1bffbd4d69b32b",
+                "sha256:94216ce3d8affdc0a8fd0ea8219c184c346a1dcf07b03f193e52f3116186621e"
             ],
             "index": "pypi",
-            "version": "==15.3.2"
+            "markers": "python_version >= '3.8'",
+            "version": "==35.2.2"
         },
         "flask": {
             "hashes": [
@@ -347,6 +348,7 @@
                 "sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"
             ],
             "index": "pypi",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
             "version": "==2.8.2"
         },
         "setuptools": {
@@ -363,6 +365,7 @@
                 "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
             ],
             "index": "pypi",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
             "version": "==1.16.0"
         },
         "sqlalchemy": {
@@ -450,6 +453,14 @@
             ],
             "index": "pypi",
             "version": "==5.5.0"
+        },
+        "typing-extensions": {
+            "hashes": [
+                "sha256:a439e7c04b49fec3e5d3e2beaa21755cadbbdc391694e28ccdd36ca4a1408f8c",
+                "sha256:e6c81219bd689f51865d9e372991c540bda33a0379d5573cddb9a3a23f7caaef"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==4.13.2"
         },
         "wcwidth": {
             "hashes": [
